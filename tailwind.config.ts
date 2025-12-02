@@ -1,17 +1,15 @@
 import type { Config } from "tailwindcss";
-import daisyui from "daisyui";
 
 const config: Config = {
     content: [
-        "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./app/**/*.{js,ts,jsx,tsx,mdx}",
         "./src/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
         extend: {},
     },
-    plugins: [daisyui],
+    // ここ重要: importした変数ではなく、require("daisyui") を直接使います
+    plugins: [require("daisyui")],
+
     daisyui: {
         themes: ["light", "lofi"],
     },
