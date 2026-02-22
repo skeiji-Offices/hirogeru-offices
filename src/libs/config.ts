@@ -59,6 +59,12 @@ const config = {
                 link: "https://mandala-chart-helper.vercel.app",
                 image: "/images/portfolio/mandala-chart-v2.jpg",
             },
+            {
+                title: "Step-English",
+                description: "小学生／中学生が英単語の勉強するためのアプリです。",
+                link: "https://step-english-teal.vercel.app/",
+                image: "/images/portfolio/step-english.png",
+            },
         ],
     },
 
