@@ -61,7 +61,7 @@ const config = {
             },
             {
                 title: "Step-English",
-                description: "小学生／中学生が英単語の勉強するためのアプリです。",
+                description: "ゲーム感覚で楽しく学べる工夫を取り入れ、小中学生がモチベーションを維持しながら英単語を学習できるアプリです。",
                 link: "https://step-english-teal.vercel.app/",
                 image: "/images/portfolio/step-english.png",
             },
